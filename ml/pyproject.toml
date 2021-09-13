@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ml"
+version = "0.1.0"
+description = ""
+authors = ["Lilith Wittmann <mail@lilithwittmann.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+prodigy = {path = "../../../Downloads/prodigy-1.11.0a11/prodigy-1.11.0a11-cp39-cp39-macosx_10_14_x86_64.whl"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
